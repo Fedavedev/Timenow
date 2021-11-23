@@ -4,4 +4,8 @@ $(document).ready(function() {
     $(".search").toggleClass("input-display")
   })
 
+  $(".hamburger").click(function() {
+    $(".mobile-menu").slideToggle()
+  })
+
 })

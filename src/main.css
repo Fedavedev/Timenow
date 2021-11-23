@@ -25,6 +25,10 @@ a {
   display: none;
 }
 
+.mobile-menu {
+  display: none;
+}
+
 /* General Style Markup Ends */
 .header-box {
   padding-top: 50px;
@@ -38,7 +42,7 @@ a {
   width: 100px;
 }
 
-input[type="search"] {
+.search {
   visibility: hidden;
   padding: 10px 15px;
   border-radius: 10px;
@@ -51,7 +55,7 @@ input[type="search"] {
   visibility: visible !important;
 }
 
-input[type="search"]:focus {
+.search:focus {
   outline: none;
 }
 

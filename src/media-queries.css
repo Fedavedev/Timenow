@@ -12,6 +12,27 @@
     cursor: pointer;
   }
 
+  .mobile-menu {
+    display: none;
+    background-color: #f1f1f1;
+    height: 200px;
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  .mobile-menu ul {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    align-items: center;
+  }
+
+  .mobile-menu li a {
+    font-size: 18px;
+  }
+
   .hero {
     height: 560px;
   }
