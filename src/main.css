@@ -194,9 +194,11 @@ footer {
 }
 
 .footer-box {
+  padding: 20px;
   max-width: 1100px;
   margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 20px;
   place-items: center;
 }
